@@ -18,7 +18,7 @@ window.onload = function() {
   const volume = (4/3)*Math.PI*Math.pow(radius, 3)
 
   // output
-  document.getElementById('output').innerHTML = "Volume = " + volume + "mm"
+  document.getElementById('output').innerHTML = "Volume = " + volume + "mm³"
 }
 
 function userInputClick() {
@@ -29,5 +29,5 @@ function userInputClick() {
   const volume = (4/3)*Math.PI*Math.pow(radius, 3)
 
   // output
-  document.getElementById("output").innerHTML = "Volume = " + volume + "mm"
+  document.getElementById("output").innerHTML = "Volume = " + volume + "mm³"
 }
